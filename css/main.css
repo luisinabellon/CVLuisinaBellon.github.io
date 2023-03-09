@@ -1,0 +1,58 @@
+
+@font-face {
+  font-family: 'bogartregular';
+  src: url('fonts/bogartregulartrial-webfont.woff2') format('woff2'),
+  url('fonts/bogartregulartrial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'neue_montreallight';
+  src: url('fonts/neuemontreal-light-webfont.woff2') format('woff2'),
+  url('fonts/neuemontreal-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+html {
+  background-color: black;
+  font-family: 'neue_montreallight', serif;
+  color: white;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+header.navBar {
+  text-align: center;
+}
+.encabezado {
+  align-content: center;
+}
+
+.navBar a {
+
+}
+
+.titulo {
+  font-family: 'bogartregular',  sans-serif;
+  font-size: 2em;
+}
+
+a {
+ color:white;
+}
+ a:hover {
+   color: lawngreen;
+ }
+.foto {
+
+  display: inline;
+}
+
+.foto img {
+  height: 25vh;
+  width: 15vh;
+}
+
