@@ -24,20 +24,20 @@ html {
   line-height: 1.4;
 }
 
-header.navBar {
-  text-align: center;
+.navBar {
+  margin: auto;
+  float: left;
 }
 .encabezado {
   align-content: center;
 }
 
-.navBar a {
-
-}
-
 .titulo {
   font-family: 'bogartregular',  sans-serif;
   font-size: 2em;
+  margin: auto;
+  text-align: center;
+  width: 50%;
 }
 
 a {
@@ -46,13 +46,10 @@ a {
  a:hover {
    color: lawngreen;
  }
-.foto {
-
-  display: inline;
-}
-
-.foto img {
+#foto {
+  float: right;
   height: 25vh;
   width: 15vh;
 }
+
 
